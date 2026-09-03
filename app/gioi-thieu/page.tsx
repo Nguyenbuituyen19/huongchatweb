@@ -209,7 +209,7 @@ export default function AboutPage() {
       </section>
 
       {/* Section: Working Philosophy */}
-      <section className="w-full py-section-gap bg-primary text-on-primary">
+      {/* <section className="w-full py-section-gap bg-primary text-on-primary">
         <div className="max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop">
           <div className="flex flex-col lg:flex-row items-center gap-margin-desktop">
             <div className="flex-1 w-full">
@@ -322,7 +322,7 @@ export default function AboutPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Section: Process */}
       <section className="w-full py-section-gap bg-surface-container-lowest">

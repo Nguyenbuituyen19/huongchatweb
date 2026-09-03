@@ -109,11 +109,11 @@ export default function HomePage() {
               </div>
             </div>
           </div>
-          <div className="lg:col-span-5 relative hidden lg:block">
-            <div className="absolute -inset-4 bg-gradient-to-tr from-secondary/20 to-primary/10 rounded-xl blur-2xl z-0"></div>
-            <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl transform rotate-2 hover:rotate-0 hover:scale-[1.02] transition-all duration-700 bg-surface group cursor-pointer">
+          <div className="lg:col-span-5 relative mt-6 lg:mt-0">
+            <div className="absolute -inset-2 sm:-inset-4 bg-gradient-to-tr from-secondary/20 to-primary/10 rounded-xl blur-xl sm:blur-2xl z-0"></div>
+            <div className="relative z-10 rounded-2xl overflow-hidden shadow-xl sm:shadow-2xl transform rotate-0 lg:rotate-2 hover:rotate-0 hover:scale-[1.02] transition-all duration-700 bg-surface group cursor-pointer">
               <div
-                className="bg-cover bg-center w-full h-[270px] group-hover:scale-105 transition-transform duration-700"
+                className="bg-cover bg-center w-full h-[200px] sm:h-[260px] lg:h-[320px] group-hover:scale-105 transition-transform duration-700"
                 style={{
                   backgroundImage:
                     "url('https://lh3.googleusercontent.com/aida-public/AB6AXuCYi_1fqVMMBRluVs8t8FAD5nZqCjBMFBGHHBPpurlCV1EeqE1SwfWEuFIVx3RSwryab0s0UZ03I71t-QJV4J-5JtZLfpAAnL5C0o2mBW5-00c8mywF4_dnGGiDWKhJSOlk6PCkKm_ywzukZWlMZx0KOqfEHTWROJnxKhyLtOQ0TNyGtejXrbYdcv-c23q3vGRs4Sg28gHQhEStwT6v8kXo-0FFxLjmKW8pgcS31Vjn_VN2N-E-7858xw')",
@@ -121,19 +121,19 @@ export default function HomePage() {
               ></div>
               {/* Floating Data Card */}
               <div
-                className="absolute bottom-6 -left-8 bg-surface/95 backdrop-blur p-4 rounded-xl shadow-xl flex items-center gap-3 group-hover:shadow-2xl transition-all duration-500 animate-bounce"
+                className="absolute bottom-3 left-3 sm:bottom-6 sm:-left-6 lg:-left-8 bg-surface/95 backdrop-blur p-3 sm:p-4 rounded-xl shadow-lg sm:shadow-xl flex items-center gap-2.5 sm:gap-3 group-hover:shadow-2xl transition-all duration-500 animate-bounce"
                 style={{ animationDuration: "3s" }}
               >
-                <div className="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                  <span className="material-symbols-outlined text-on-secondary-container text-[20px]">
+                <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-secondary-container flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                  <span className="material-symbols-outlined text-on-secondary-container text-[16px] sm:text-[20px]">
                     trending_up
                   </span>
                 </div>
                 <div>
-                  <p className="font-label-sm text-xs text-on-surface-variant whitespace-nowrap">
+                  <p className="font-label-sm text-[10px] sm:text-xs text-on-surface-variant whitespace-nowrap">
                     Tăng trưởng doanh thu
                   </p>
-                  <p className="font-headline-md text-headline-md text-primary">
+                  <p className="font-headline-md text-sm sm:text-headline-md text-primary font-bold">
                     +142%
                   </p>
                 </div>

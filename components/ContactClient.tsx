@@ -76,7 +76,7 @@ export default function ContactClient() {
                       className="font-headline-md text-base sm:text-headline-md text-on-surface group-hover:text-primary transition-colors duration-300"
                       href="tel:+84123456789"
                     >
-                      +84 123 456 789
+                     0985929570
                     </a>
                   </div>
                 </div>
@@ -95,7 +95,7 @@ export default function ContactClient() {
                       className="font-headline-md text-base sm:text-headline-md text-on-surface group-hover:text-primary transition-colors duration-300"
                       href="mailto:hello@huongchat.vn"
                     >
-                      hello@huongchat.vn
+                      banmaigroupvn@gmail.com
                     </a>
                   </div>
                 </div>
@@ -108,10 +108,10 @@ export default function ContactClient() {
                   </div>
                   <div className="flex flex-col gap-0.5">
                     <span className="font-label-sm text-[11px] sm:text-xs text-on-surface-variant uppercase tracking-wider">
-                      Trụ sở chính
+                      Địa chỉ
                     </span>
                     <span className="font-headline-md text-sm sm:text-headline-md text-on-surface group-hover:text-primary transition-colors duration-300 leading-tight">
-                      Tầng 15, Tòa nhà Alpha, 123 Lê Lợi, Quận 1, TP.HCM
+                      Lô 4-08 Khu Tái Định Cư X1 - Ngõ 56 Lê Quang Đạo, Phường Từ Liêm, Thành phố Hà Nội, Việt Nam
                     </span>
                   </div>
                 </div>
@@ -396,7 +396,7 @@ export default function ContactClient() {
       </section>
 
       {/* Map Section */}
-      <section className="w-full px-4 sm:px-margin-mobile lg:px-margin-desktop pb-8 sm:pb-12 max-w-container-max mx-auto">
+      {/* <section className="w-full px-4 sm:px-margin-mobile lg:px-margin-desktop pb-8 sm:pb-12 max-w-container-max mx-auto">
         <div className="bg-surface-container border border-outline-variant/30 hover:border-secondary/40 rounded-2xl p-2 shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden h-[260px] sm:h-[340px] lg:h-[400px] relative group cursor-pointer">
           <div
             className="w-full h-full bg-cover bg-center rounded-xl transition-transform duration-700 group-hover:scale-[1.03]"
@@ -430,7 +430,7 @@ export default function ContactClient() {
             </a>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

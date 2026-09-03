@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 const navItems = [
   { label: "Trang chủ", href: "/" },
@@ -27,14 +28,12 @@ export default function Header() {
         <div className="h-16 max-w-container-max mx-auto px-4 sm:px-margin-mobile lg:px-margin-desktop flex items-center justify-between">
           {/* Brand Logo */}
           <Link href="/" className="flex items-center gap-2 group whitespace-nowrap">
-            <div className="w-8 h-8 sm:w-9 sm:h-9 bg-primary flex items-center justify-center rounded-lg shadow-sm group-hover:scale-105 group-hover:rotate-3 group-hover:bg-secondary transition-all duration-300 flex-shrink-0">
-              <span className="material-symbols-outlined text-on-primary text-[18px] group-hover:rotate-12 transition-transform duration-300">
-                hub
-              </span>
-            </div>
-            <span className="font-headline-md text-lg sm:text-[20px] font-bold tracking-tight text-primary group-hover:text-secondary transition-colors duration-300 whitespace-nowrap">
-              HUONGCHAT
-            </span>
+            <Image
+              src="/logo.png"
+              alt="Logo"
+              width={50}
+              height={50}
+            />
           </Link>
 
           {/* Desktop Navigation */}
@@ -72,11 +71,6 @@ export default function Header() {
                 arrow_forward
               </span>
             </Link>
-            <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center shadow-sm hover:scale-105 hover:bg-secondary transition-all duration-300 flex-shrink-0 cursor-pointer">
-              <span className="material-symbols-outlined text-on-primary text-[16px]">
-                person
-              </span>
-            </div>
 
             {/* Mobile Hamburger Button */}
             <button
